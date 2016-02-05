@@ -1,3 +1,4 @@
 file {'foo':
-ensure => present
+ensure => present,
+mode => 0644,
 }
